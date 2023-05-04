@@ -50,7 +50,7 @@ sudo reboot
 
 ![Screenshot 2023-05-04 172427](https://user-images.githubusercontent.com/69754757/236196469-4bb6d97e-3024-42bf-a810-144df5f6b350.png)
 
-- Configure the pipeline job to use the GitHub repository that you cloned earlier.
+- Provide GitHub URL.
 
 ![Screenshot 2023-05-04 172633](https://user-images.githubusercontent.com/69754757/236196895-3b47b412-6a09-4cd3-9762-1b08f19c8fb3.png)
 
@@ -64,7 +64,7 @@ sudo reboot
 
 ![Screenshot 2023-05-04 174602](https://user-images.githubusercontent.com/69754757/236201122-9863a3fa-1010-4478-8b0c-b0b1bb830348.png)
 
-- Make any changes in the GitHub repo and edit any header file. The job will run automatically and changes will be made.
+- Click the build button and go to console output.
 
 ![Screenshot 2023-05-04 174751](https://user-images.githubusercontent.com/69754757/236201495-5d411572-e9ee-4f9a-89f6-f79f6a9de2ca.png)
 
