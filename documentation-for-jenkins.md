@@ -44,7 +44,7 @@ sudo usermod -aG docker jenkins
 sudo reboot
 ```
 
-- Open Jenkins in your web browser and create a new pipeline job.
+- Open Jenkins in your web browser and create a new freestyle project.
 
 ![Screenshot 2023-05-04 172324](https://user-images.githubusercontent.com/69754757/236196317-8f95aec6-574e-40f6-86f3-956842268ca3.png)
 
@@ -56,7 +56,24 @@ sudo reboot
 
 ![Screenshot 2023-05-04 172722](https://user-images.githubusercontent.com/69754757/236197058-2e4050fd-efc1-4d03-98e8-421cd26d7bb2.png)
 
-- Configure and select “GitHub hook trigger for GITScm polling”
+- Configure and select “GitHub hook trigger”
 
 ![Screenshot 2023-05-04 172859](https://user-images.githubusercontent.com/69754757/236197414-0c74d541-18d0-4e88-bebc-8217808139d7.png)
 
+- Build Code through docker
+
+![Screenshot 2023-05-04 174602](https://user-images.githubusercontent.com/69754757/236201122-9863a3fa-1010-4478-8b0c-b0b1bb830348.png)
+
+- Make any changes in the GitHub repo and edit any header file. The job will run automatically and changes will be made.
+
+![Screenshot 2023-05-04 174751](https://user-images.githubusercontent.com/69754757/236201495-5d411572-e9ee-4f9a-89f6-f79f6a9de2ca.png)
+
+## Deploying the application
+
+![Screenshot 2023-05-04 174831](https://user-images.githubusercontent.com/69754757/236201669-923fc662-730f-41d5-bf2c-1b4062c9b4c5.png)
+
+## Open the particular IP on which it is hosted. It will be up and running.
+
+![Screenshot 2023-05-04 175124](https://user-images.githubusercontent.com/69754757/236202417-5858ebd1-bc7f-487b-b7b6-c307cb9fc0f3.png)
+
+## That's it! You now have a fully automated CI/CD pipeline that deploys your application whenever there is a new commit to your repository.
